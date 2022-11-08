@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Driver {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		float total = 0;
+		/*while(true) {
+			System.out.print("Lütfen bir değer giriniz: ");
+			int sayi = scanner.nextInt();
+			if (sayi == 0) break;
+			total += sayi;
+		}*/
+		
+		int input = 1;
+		do {
+			System.out.print("Lütfen bir değer giriniz: ");
+			int sayi = scanner.nextInt();
+			if (sayi == 0) input = sayi;
+			
+		}while(input == 0);
+		System.out.println("Girdiğiniz sayıların toplami: "+ total);
+	}
+}

@@ -1,0 +1,7 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		Aylar ay = Aylar.Ocak;
+		System.out.println(ay);
+	}
+}

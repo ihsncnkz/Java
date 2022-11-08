@@ -1,0 +1,11 @@
+
+public class Driver {
+	
+	int i = 10; // Eger basına static yazmasaydım main metodumda ulasamazdım.
+	
+	public static void man(String[] args) {
+		Driver driver = new Driver();
+		driver.i = 20;
+		System.out.println(driver.i);
+	}
+}

@@ -1,0 +1,21 @@
+package ifadeler;
+
+public class Driver {
+	public static void main(String[] args) {
+		// Expression javadaki anlamlı en küçük kod blokları.
+		int i; // Expression
+		
+		// Decleration, tanımlanan bir değere ilk değerini atamaktır.
+		int x = 10;
+		
+		// Sistem çağırma
+		System.out.println("Selam");
+		double pow = Math.pow(2, 3);
+		System.out.println(pow);
+		
+		// Conrol follow statements : For, if, while
+		for (int j = 0; j<10; j++) {
+			System.out.println(j)
+		}
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class hesaplama {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Lütfen Vize notunuzu giriniz: ");
+		int vize = scanner.nextInt();
+		System.out.print("Lütfen Final notunuzu giriniz: ");
+		int finaln = scanner.nextInt();
+		
+		int ort = (vize + finaln) / 2;
+		
+		if (ort >= 50) {
+			if (finaln > 50) System.out.println("Geçtiniz!");
+			}
+		else System.out.println("Kaldiniz!");
+	}
+}

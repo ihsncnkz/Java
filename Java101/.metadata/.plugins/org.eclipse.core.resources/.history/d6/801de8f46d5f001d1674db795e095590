@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Driver {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		float total = 0;
+		while(true) {
+			int sayi = scanner.nextInt();
+			if (sayi == 0) break;
+			total += sayi;
+		}
+		System.out.println("Girdiğiniz sayıların toplami: "+ total);
+	}
+}

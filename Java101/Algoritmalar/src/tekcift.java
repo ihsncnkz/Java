@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class tekcift {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		while(true) {
+			System.out.print("Lütfen bir değer giriniz: ");
+			int sayi = scanner.nextInt();
+			if (sayi == 0) {
+				System.out.println("Sistemden çıktınız!");
+				break;
+			}
+			else if (sayi % 2 == 1) System.out.println("Girmiş olduğunu değer tek!");
+			else if (sayi % 2 == 0) System.out.println("Girmiş olduğunu değer çift!");
+		}
+		
+	}
+}

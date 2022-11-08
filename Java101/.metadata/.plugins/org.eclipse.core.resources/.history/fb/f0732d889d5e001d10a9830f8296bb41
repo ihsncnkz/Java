@@ -1,0 +1,12 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		boolean b = false;
+		System.out.println(b);
+		System.out.println(!b);
+		System.out.println(b & false);
+		System.out.println(b | true);
+		// Bunu çalşma mantığı soldaki değere bakım örneğin false sağ taraftaki değere baklmaksızın değer false çıkıyor.
+		System.out.println(b && false);
+	}
+}
