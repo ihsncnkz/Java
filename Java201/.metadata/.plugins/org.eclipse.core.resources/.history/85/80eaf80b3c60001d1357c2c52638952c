@@ -1,0 +1,32 @@
+
+public class Driver {
+	
+	private static int x = 20;
+	
+	public static void main(String[] args) {
+		/*Driver driver = new Driver();
+		driver.normalMetot();*/
+		
+		Driver.staticMetot();
+		
+		Math.abs(x);
+		
+		int max = Driver.max(1,5,8);
+		System.out.println(max);
+	}
+	
+	public void normalMetot() {
+		System.out.println(x);
+	}
+	
+	public static void staticMetot() {
+		System.out.println(x);
+	}
+	
+	public static int max(int x, int y, int z) {
+		int max = x;
+		if (y>max) max = y;
+		if (z>max) max = z;
+		return max;
+	}
+}

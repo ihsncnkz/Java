@@ -1,0 +1,20 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		Driver driver = new Driver();
+		int x = 20;
+		System.out.println(x);
+		driver.passByValue(x);
+		System.out.println(x);
+	}
+	
+	public void degistir(int[] sayilar) {
+		
+	}
+	
+	public void passByValue(int x) {
+		System.out.println("PBV " + x);
+		x = 10;
+		System.out.println("PBV " + x);
+	}
+}

@@ -1,0 +1,6 @@
+
+public class Daire {
+	double x;
+	double y;
+	double r;
+}

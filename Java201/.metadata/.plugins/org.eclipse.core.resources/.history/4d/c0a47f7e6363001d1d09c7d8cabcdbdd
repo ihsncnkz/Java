@@ -1,0 +1,9 @@
+
+public class Ogrenci {
+	
+	private final int numara;
+	
+	public int getNumara() {
+		return numara;
+	}
+}

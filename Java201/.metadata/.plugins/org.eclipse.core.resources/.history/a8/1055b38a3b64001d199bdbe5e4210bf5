@@ -1,0 +1,10 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Araba araba = new Araba();
+		araba.setMarka("X marka");
+		araba.setModel("Y model");
+		Araba.Motor motor = araba.new Motor();
+	}
+}

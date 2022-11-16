@@ -1,0 +1,25 @@
+
+public class Isci {
+
+	private String isim;
+	private double maas;
+	
+	public String getIsim() {
+		return isim;
+	}
+	public void setIsim(String isim) {
+		if (isim == null || isim.trim().length() == 0 ) {
+			throw new HataliDeger("isim", isim)
+		}
+		this.isim = isim;
+	}
+	
+	public double getmaas() {
+		return maas;
+	}
+	public void setmaas(double maas) {
+		this.maas = maas;
+	}
+	
+	
+}

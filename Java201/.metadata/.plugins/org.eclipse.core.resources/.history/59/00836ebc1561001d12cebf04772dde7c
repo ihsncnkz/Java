@@ -1,0 +1,8 @@
+
+public class Kopek {
+	String cins;
+	Boyut boyut;
+	int yas;
+	Renk renk;
+	
+}

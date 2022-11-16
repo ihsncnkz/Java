@@ -1,0 +1,20 @@
+
+public class Driver {
+	private void helloWorld() {
+		System.out.println("Hello World!");
+	}
+	
+	// Aynı isimde başka bir metot olusturamazsınız!
+	// Eger aldığı parametler farklı ise java buna izin veriyor!
+	private int topla(int x, int y) {
+		int toplam = x + y;
+		return toplam;
+	}
+	
+	public static void main(String[] args) {
+		new Driver().helloWorld();
+		Driver driver = new Driver();
+		int sonuc =driver.topla(20, 30);
+		System.out.println(sonuc);
+	}
+}

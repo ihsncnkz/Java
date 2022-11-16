@@ -1,0 +1,11 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		Ogrenci ogrenci = new Ogrenci();
+		/*ogrenci.ad = "Goktug";
+		ogrenci.soyad = "Çalışkan";
+		ogrenci.numara = 1;*/
+		
+		ogrenci.numarayiYazdır();
+	}
+}

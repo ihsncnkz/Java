@@ -1,0 +1,15 @@
+import java.util.Date;
+
+public class Calisan {
+	
+	private String isim;
+	private double maas;
+	private Date iseBaslamaTarihi;
+	
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	public String setIsim() {
+		return isim;
+	}
+}

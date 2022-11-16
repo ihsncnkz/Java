@@ -1,0 +1,23 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		Ogrenci ogrenci = new Ogrenci();
+		ogrenci.isim = "ihsan";
+		ogrenci.yas = 3;
+		
+		System.out.println(ogrenci.isim);
+		System.out.println(ogrenci.yas);
+	
+		
+		Driver driver = new Driver();
+		driver.ogrenciBilgileri(ogrenci);
+		
+	}
+	
+	public void ogrenciBilgileri(Ogrenci ogrenci) {
+		
+		ogrenci.isim = "Hasan";
+		System.out.println(ogrenci.isim);
+		System.out.println(ogrenci.yas);
+	}
+}

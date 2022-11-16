@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		try {
+			System.out.println("1. Sayıyı Giriniz: ");
+			int x = scanner.nextInt();
+			System.out.println("2. Sayıyı Giriniz: ");
+			int y = scanner.nextInt();
+			int sonuc = x / y;
+			System.out.println("Sonuc: " + sonuc);
+		} catch (Exception exception) {
+			
+		}
+	}
+}

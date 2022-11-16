@@ -1,0 +1,24 @@
+
+public class Kisi {
+
+	private String tcNo;
+	private String isim;
+	
+	public String getTcNo() {
+		return tcNo;
+	}
+	public void setTcNo(String tcNo) {
+		this.tcNo = tcNo;
+	}
+	
+	public String getIsim() {
+		return isim;
+	}
+	public String getIsim(String isim) {
+		return isim;
+	}
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	
+}

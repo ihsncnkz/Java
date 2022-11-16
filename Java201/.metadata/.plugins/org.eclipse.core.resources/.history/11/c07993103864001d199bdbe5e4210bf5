@@ -1,0 +1,7 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		Kisi kisi = new Kisi("1","Ahmet Geldi");
+		System.out.println(kisi.toString());
+	}
+}

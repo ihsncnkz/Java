@@ -1,0 +1,6 @@
+package com.example;
+
+public class Driver {
+	Araba araba = new Araba();
+	araba.marka = "Honda";
+}

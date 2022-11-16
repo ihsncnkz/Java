@@ -1,0 +1,24 @@
+
+public class Ogrenci {
+	//Degiskenler private olarak işaretlendikleri zaman sınıfın dışında erişilemezler!
+	/*private int numara = 10;
+	private String ad;*/
+	//private String soyad;
+	
+	// Eger basına her hangi bir erisim belirleyici koymazsanız defoult olarak olusturulur!
+	// Defoult erisim belirleyi degerlere aynı paket içerisindeki olanlar erisebilir!
+	String soyad;
+	
+	/*Javada paketlerin asıl amacı aynı isimli birden fazla sınıfı birbiriyle karıstırmamak*/
+	
+	/*private void numarayiYazdır() {
+		System.out.println(numara);
+	}*/
+	
+	public int numara = 10;
+	public String ad;*/
+	public String soyad;
+	
+	
+	
+}

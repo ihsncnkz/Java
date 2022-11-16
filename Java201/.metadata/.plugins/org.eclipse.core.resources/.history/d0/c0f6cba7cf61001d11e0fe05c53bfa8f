@@ -1,0 +1,6 @@
+
+public class Sekil {
+	private String renk;
+	private int posX;
+	private int posY;
+}

@@ -1,0 +1,12 @@
+
+public class Driver {
+	
+	public Driver() {
+		System.out.println("ctor");
+	} 
+	
+	public static void main(String[] args) {
+		Driver driver = new Driver();
+		
+	}
+}

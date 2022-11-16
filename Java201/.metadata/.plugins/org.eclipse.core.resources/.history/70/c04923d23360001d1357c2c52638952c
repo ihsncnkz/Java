@@ -1,0 +1,7 @@
+
+public class Driver {
+	// Java uygulamalarında mutlaka bir main metotu olmak zorundadır!
+	public static void main(String[] args) {
+		
+	}
+}

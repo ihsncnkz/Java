@@ -1,0 +1,20 @@
+
+public class Kalem {
+	String marka;
+	String tip;
+	boolean doldurabilir;
+	boolean silinebilir;
+	
+	void yaz() {
+		
+	}
+	
+	void tekrarDoldur() {
+		
+	}
+	
+	void sil() {
+		
+	}
+	
+}

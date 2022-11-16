@@ -1,0 +1,12 @@
+
+public class Ogrenci {
+	//Degiskenler private olarak işaretlendikleri zaman sınıfın dışında erişilemezler!
+	private int numara = 10;
+	private String ad;
+	private String soyad;
+	
+	void numarayiYazdır() {
+		System.out.println(numara);
+	}
+	
+}

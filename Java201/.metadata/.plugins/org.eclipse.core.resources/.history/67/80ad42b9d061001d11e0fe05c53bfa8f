@@ -1,0 +1,14 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		//Sekil sekil = new Sekil();
+		Kare kare = new Kare();
+		kare.setPosx(10);
+		kare.setPosY(10);
+		kare.setRenk("Sarı");
+		kare.setKenaerUzunlugu(10);
+		
+		System.out.println(kare.getKenarUzunlugu();)
+		
+	}
+}

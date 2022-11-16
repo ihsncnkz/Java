@@ -1,0 +1,5 @@
+
+public class Ogrenci {
+	
+	private int numara = 10;
+}

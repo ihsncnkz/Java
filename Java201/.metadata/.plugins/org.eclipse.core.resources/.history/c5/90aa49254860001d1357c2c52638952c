@@ -1,0 +1,10 @@
+
+public class Ogrenci {
+	String ad;
+	String Soyad;
+	int yas;
+	
+	Ogrenci(){
+		
+	}
+}

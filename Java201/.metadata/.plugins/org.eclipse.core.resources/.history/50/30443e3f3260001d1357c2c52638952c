@@ -1,0 +1,16 @@
+
+public class Driver {
+	private void helloWorld() {
+		System.out.println("Hello World!");
+	}
+	
+	private int topla(int x, int y) {
+		int toplam = x + y;
+		return toplam
+	}
+	
+	public static void main(String[] args) {
+		new Driver().helloWorld();
+		
+	}
+}
