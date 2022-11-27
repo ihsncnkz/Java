@@ -1,0 +1,11 @@
+
+public class Driver {
+	
+	public static void main(String[] args) {
+		Oyuncu oyuncu = new Futbolcu();
+		oyuncu.setIsim("Hasan");
+		oyuncu.setNumara(21);
+		oyuncu.sutCek();
+		oyuncu.pasVer();
+	}
+}

@@ -1,0 +1,14 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Matematik mat = new Matematik() {
+
+			@Override
+			public void islem(double a, double b) {
+				System.out.println(a + b);
+			}
+			
+		}
+	}
+}

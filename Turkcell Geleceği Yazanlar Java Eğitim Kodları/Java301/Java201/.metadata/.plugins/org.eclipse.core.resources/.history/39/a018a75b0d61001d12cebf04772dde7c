@@ -1,0 +1,8 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		Bisiklet bisiklet = new Bisiklet();
+		bisiklet.hiz = 10;
+		bisiklet.vites = 18;
+	}
+}

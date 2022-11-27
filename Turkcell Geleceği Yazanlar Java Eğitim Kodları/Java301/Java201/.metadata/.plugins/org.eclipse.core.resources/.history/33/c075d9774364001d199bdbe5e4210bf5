@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Driver {
+	
+	public static void main(String[] args) {
+		arithExcep();
+	}
+	
+	public static void arithExcep() {
+		Scanner scanner = new Scanner(System.in);
+		int x = scanner.nextInt();
+		int y = scanner.nextInt();
+		System.out.println(x / y);
+	}
+}

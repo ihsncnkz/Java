@@ -1,0 +1,10 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Daire daire = new daire();
+		daire.setX(10);
+		daire.setY(20);
+		daire.setyaricap(11);
+	}
+}

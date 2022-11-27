@@ -1,0 +1,8 @@
+
+public class Ogrenci {
+	
+	private int numara;
+	private String ad;
+	private String soyad;
+	
+}

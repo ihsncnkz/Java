@@ -1,0 +1,15 @@
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class KisiDriver {
+
+	public static void main(String[] args) {
+		SortedMap<Integer, Kisi> sortedMap = new TreeMap<>();
+		sortedMap.put(1, new Kisi("123","Ahmet","Kalkan",Cinsiyet.BAY));
+		sortedMap.put(1, new Kisi("456","Fatma","Ak",Cinsiyet.BAYAN));
+		sortedMap.put(1, new Kisi("789","Nusret","Ok",Cinsiyet.BAY));
+		
+		System.out.println(sortedMap.size());
+		
+	}
+}

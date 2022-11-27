@@ -1,0 +1,8 @@
+
+public class Karga implements Uçabilir{
+
+	@Override
+	public void uc() {
+		System.out.println("Karga uçabilir");
+	}
+}

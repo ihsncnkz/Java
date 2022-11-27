@@ -1,0 +1,37 @@
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		/*Matematik mat = new Matematik() {
+
+			@Override
+			public void islem(double a, double b) {
+				System.out.println(a + b);
+			}
+		};*/
+		
+		/*Matematik mat = (x,y) -> System.out.println(x + y);
+		mat.islem(25, 8);
+		
+		Matematik mat2 = (x,y) -> System.out.println(x - y);
+		mat2.islem(25, 8);*/
+		
+		ArrayList<String> sehirler = new ArrayList<>();
+		sehirler.add("Bursa");
+		sehirler.add("Istanbul");
+		sehirler.add("Afyonkarahisar");
+		sehirler.add("Ankara");
+		sehirler.add("Elazıg");
+		
+		sehirler.forEach(new Consumer<String>() {
+
+			@Override
+			public void accept(String t) {
+				System.out.println(t);
+			}
+			
+		});
+	}
+}

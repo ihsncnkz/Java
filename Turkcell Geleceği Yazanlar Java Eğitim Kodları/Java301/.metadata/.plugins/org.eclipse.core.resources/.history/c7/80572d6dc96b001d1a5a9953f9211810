@@ -1,0 +1,15 @@
+import java.io.Serializable;
+
+public class Sehir implements Serializable{
+	
+	private String isim;
+	private long nufus;
+	
+	public Sehir() {
+		
+	}
+	public Sehir(String isim, long nufus) {
+		this.isim = isim;
+		this.nufus = nufus;
+	}
+}

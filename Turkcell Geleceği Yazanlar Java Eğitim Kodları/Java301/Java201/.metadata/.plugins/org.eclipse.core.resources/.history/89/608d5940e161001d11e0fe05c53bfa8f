@@ -1,0 +1,11 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Kare kare = new Kare(10);
+		kare.alan();
+		
+		Daire daire = new Daire(10);
+		daire.alan();
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.SortedMap;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		SortedMap<String, String> sortedMap = new TreeMap<>();
+		sortedMap.put("Araba", "Car");
+		sortedMap.put("Kus", "Bird");
+		sortedMap.put("Kalem", "Pencil");
+		
+		System.out.println(sortedMap.size());
+		
+		String value = sortedMap.get("Araba");
+		System.out.println(value);
+	}
+}

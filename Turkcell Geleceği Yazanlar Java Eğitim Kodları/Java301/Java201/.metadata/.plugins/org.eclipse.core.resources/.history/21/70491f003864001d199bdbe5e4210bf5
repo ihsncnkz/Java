@@ -1,0 +1,41 @@
+
+public class Kisi {
+
+	private String tcNo;
+	private String isim;
+	
+	public Kisi() {
+		
+	}
+	
+	public Kisi(String tcNo) {
+		this.tcNo = tcNo;
+	}
+	public Kisi(String tcNo, String isim) {
+		this.tcNo = tcNo;
+		this.isim = isim;
+	}
+	
+	public String getTcNo() {
+		return tcNo;
+	}
+	public void setTcNo(String tcNo) {
+		this.tcNo = tcNo;
+	}
+	
+	public String getIsim() {
+		return isim;
+	}
+	public String getIsim(String isim) {
+		return isim;
+	}
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	
+	@Override
+	public void toString() {
+		return "TC No: " + tcNo + ", İsim : " + isim;
+	}
+	
+}

@@ -1,0 +1,51 @@
+import java.io.Serializable;
+import java.time.LocalDate;
+
+public class Kisi implements Serializable {
+
+	public enum Cinsiyet {
+		ERKEK, KADIN
+	}
+	
+	private String isim;
+	private LocalDate dogumTarih;
+	private String emailAdresi;
+	private Cinsiyet cinsiyet;
+	
+	public Kisi() {
+		
+	}
+	public Kisi(String isim, LocalDate dogumTarih, String emailAdresi, Cinsiyet cinsiyet) {
+		this.isim = isim;
+		this.dogumTarih = dogumTarih;
+		this.emailAdresi = emailAdresi;
+		this.cinsiyet = cinsiyet;
+	}
+	
+	public String getIsim() {
+		return isim;
+	}
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	
+	public LocalDate getDogumTarih() {
+		return dogumTarih;
+	}
+	public void setDogumTarih(LocalTime dogumTarih) {
+		this.dogumTarih = dogumTarih;
+	}
+	public String getEmailAdresi() {
+		return emailAdresi;
+	}
+	public void setEmailAdresi(String emailAdresi) {
+		this.emailAdresi = emailAdresi;
+	}
+	
+	public Cinsiyet getCinsiyet() {
+		return cinsiyet;
+	}
+	public void setCinsiyet(Cinsiyet cinsiyet) {
+		this.cinsiyet = cinsiyet;
+	}
+}

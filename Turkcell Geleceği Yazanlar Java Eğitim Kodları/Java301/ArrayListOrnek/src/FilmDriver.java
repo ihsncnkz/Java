@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class FilmDriver {
+
+	public static void main(String[] args) {
+		ArrayList<Film> arrayList = new ArrayList<>();
+		arrayList.add(new Film("X filmi", "Ali Can" , FilmTipi.BELGESEL, 2020));
+		arrayList.add(new Film("Y filmi", "Tuğrul Çalıskan" , FilmTipi.KOMEDİ, 2018));
+		arrayList.add(new Film("Z filmi", "Hasan Pehlivan" , FilmTipi.DRAM, 2019));
+		
+		for (int i = 0; i < arrayList.size(); i++) {
+			Film film = arrayList.get(i);
+			System.out.println(film);
+		}
+		
+		System.out.println("-----------------------------");
+		System.out.println(arrayList.get(1));
+		
+	}
+}

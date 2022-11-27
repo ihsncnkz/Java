@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		ArrayList<Ogrenci> arrayList = new ArrayList<>();
+		arrayList.add(new Ogrenci(1, "Ahmet Çalışkan", 16));
+		arrayList.add(new Ogrenci(4, "Hasan Koşar", 18));
+		arrayList.add(new Ogrenci(2, "Zeynep Güler",22));
+		arrayList.add(new Ogrenci(3, "Zekiye Ak", 12));
+		
+		
+		
+	}
+}

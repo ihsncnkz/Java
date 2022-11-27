@@ -1,0 +1,16 @@
+import java.time.LocalTime;
+
+public class LocalTimeDriver {
+
+	public static void main(String[] args) {
+		LocalTime time = LocalTime.now();
+		System.out.println(time);
+		System.out.println("----------");
+		
+		LocalTime localTime = LocalTime.parse("21:05");
+		System.out.println(localTime);
+		System.out.println("----------");
+		
+		
+	}
+}

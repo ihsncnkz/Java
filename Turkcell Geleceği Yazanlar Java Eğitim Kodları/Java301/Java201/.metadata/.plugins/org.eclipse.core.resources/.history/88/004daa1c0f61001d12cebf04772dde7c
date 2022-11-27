@@ -1,0 +1,4 @@
+
+public class Oyuncu {
+	int saglik = 100;
+}

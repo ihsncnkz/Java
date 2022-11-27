@@ -1,0 +1,20 @@
+
+public class Arac {
+	
+	private String plaka;
+	private String marka;
+	
+	public String getPlaka() {
+		return plaka;
+	}
+	public void setPlaka(String plaka) {
+		this.plaka = plaka;
+	}
+	
+	public String getmarka() {
+		return marka;
+	}
+	public void setMarka(String marka) {
+		this.marka = marka;
+	}
+}

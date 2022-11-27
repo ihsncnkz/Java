@@ -1,0 +1,16 @@
+import java.util.Date;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		
+		while(true) {
+			System.out.println(new Date());
+			try {
+				Thread.sleep(1000);
+			} catch(InterruptedException e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+}

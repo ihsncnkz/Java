@@ -1,0 +1,10 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Isci isci = new Isci();
+		isci.setIsim("Osman takır");
+		isci.setmaas(2200);
+		System.out.println(isci.toString());
+	}
+}

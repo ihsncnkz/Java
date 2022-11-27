@@ -1,0 +1,27 @@
+
+public class Kare {
+	private int x;
+	private int y;
+	private int uzunluk;
+	
+	public void setX(int _x) {
+		x = _x;
+	}
+	public int getX() {
+		return x;
+	}
+	
+	public void setY(int _y) {
+		y = _y;
+	}
+	public int getY() {
+		return y;
+	}
+	
+	public void setUzunluk(int _uzunluk) {
+		uzunluk = _uzunluk;
+	}
+	public int getUzunluk() {
+		return uzunluk;
+	}
+}

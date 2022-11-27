@@ -1,0 +1,12 @@
+
+public class Driver {
+	
+	public void merhaba() {
+		System.out.println("Merhaba");
+	}
+	
+	// Java uygulamalarında mutlaka bir main metotu olmak zorundadır!
+	public static void main(String[] args) {
+		
+	}
+}

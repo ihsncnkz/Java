@@ -1,0 +1,8 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Calisan c = new Calisan("Ali Can", "IT Mudur",15000);
+		c.ozet();
+	}
+}

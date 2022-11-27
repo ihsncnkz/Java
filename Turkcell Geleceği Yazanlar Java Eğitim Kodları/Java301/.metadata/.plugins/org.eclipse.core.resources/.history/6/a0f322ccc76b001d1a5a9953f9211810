@@ -1,0 +1,17 @@
+import java.util.HashMap;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		HashMap<Integer, String> hashMap = new HashMap<>();
+		hashMap.put(34, "istanbul");
+		hashMap.put(35, "izmir");
+		hashMap.put(6, "ankara");
+		// Aynı kay degerine sahip başka bir değer olduğu için bu eleman eklenmez.
+		// Ama ilk göderdiğimi değeri aşağıdaki değer ezmiş oldu eğer biz istanbul2 yaparsak istanbul2 değerini geri göderir.
+		
+		hashMap.put(34, "Istanbul");
+		
+		System.out.println(hashMap.size());
+	}
+}

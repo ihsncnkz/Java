@@ -1,0 +1,23 @@
+import java.util.Date;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		while(true) {
+			String line = scanner.nextLine();
+			System.out.println(line);
+		}
+		
+		while(true) {
+			System.out.println(new Date());
+			try {
+				Thread.sleep(1000);
+			} catch(InterruptedException e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+}

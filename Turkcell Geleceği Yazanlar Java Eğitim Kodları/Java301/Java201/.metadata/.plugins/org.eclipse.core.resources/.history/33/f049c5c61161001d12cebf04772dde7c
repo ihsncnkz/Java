@@ -1,0 +1,24 @@
+
+public class Kalem {
+	String marka;
+	String tip;
+	boolean doldurabilir;
+	boolean silinebilir;
+	
+	void yaz() {
+		
+	}
+	
+	void tekrarDoldur() {
+		if(doldurabilir) {
+			// kalemi doldur!
+		}
+	}
+	
+	void sil() {
+		if (silinebilir) {
+			// yazıyı sil
+		}
+	}
+	
+}

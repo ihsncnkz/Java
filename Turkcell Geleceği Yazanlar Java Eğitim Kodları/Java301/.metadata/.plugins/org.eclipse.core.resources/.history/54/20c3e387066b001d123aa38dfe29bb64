@@ -1,0 +1,48 @@
+
+public class Film {
+
+	private String ad;
+	private String yonetmen;
+	private FilmTipi tip;
+	private int yayinlanmaYili;
+	
+	public String getAd() {
+		return ad;
+	}
+	public void setAd(String ad) {
+		this.ad = ad;
+	}
+	
+	public String getYonetmen() {
+		return yonetmen;
+	}
+	public void setYonetmen(String yonetmen) {
+		this.yonetmen = yonetmen;
+	}
+	
+	public FilmTipi getTip() {
+		return tip;
+	}
+	public void setTip(FilmTipi tip) {
+		this.tip = tip;
+	}
+	
+	public int getYayinlanmaYili() {
+		return yayinlanmaYili;
+	}
+	public void setYayinlanmaYili(int yayinlanmaYili) {
+		this.yayinlanmaYili = yayinlanmaYili;
+	}
+	
+	@Override
+	public int hashCode() {
+		return this.yayinlanmaYili + this.ad;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Ad: " + ad + " ,Yonetmen: " + yonetmen + " ,Tip: " + tip + " ,Yil: " + yayinlanmaYili;
+	}
+	
+}

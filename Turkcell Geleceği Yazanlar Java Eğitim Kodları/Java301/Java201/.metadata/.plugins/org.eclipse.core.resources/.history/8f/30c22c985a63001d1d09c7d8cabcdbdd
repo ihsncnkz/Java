@@ -1,0 +1,29 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		/*DbConnection connection = new DbConnection();
+		connection.openConnection();
+		connection.executeQuery("SLECKT * FROM students");
+		connection.closeConnection();
+		
+		MySQLConnection mysql = new MySQLConnection();
+		mysql.openConnection();
+		mysql.executeQuery("SELECT * FROM studets");
+		mysql.closeConnection();
+		
+		MsSQLConnection Mssql = new MsSQLConnection();
+		Mssql.openConnection();
+		Mssql.executeQuery("Select * from studens");
+		Mssql.closeConnection();*/
+		
+		DbConnection dbCon = new MySQLConnection();
+		dbCon.openConnection();
+		dbCon.executeQuery("Select * from studends");
+		dbCon.closeConnection();
+		
+		DbConnection dbCon2 = new MsSQLConnection();
+		dbCon2.openConnection();
+		dbCon2.executeQuery("Select * from studends");
+		dbCon2.closeConnection();
+	}
+}

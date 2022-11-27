@@ -1,0 +1,17 @@
+import java.util.function.Supplier;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Supplier<Urun> supplier = new Supplier<Urun>() {
+
+			@Override
+			public Urun get() {
+				Urun urun = new Urun(1, "Laptop", 1000);
+				return urun;
+			}
+		};
+		
+		System.out.println(supplier.get());
+	}
+}

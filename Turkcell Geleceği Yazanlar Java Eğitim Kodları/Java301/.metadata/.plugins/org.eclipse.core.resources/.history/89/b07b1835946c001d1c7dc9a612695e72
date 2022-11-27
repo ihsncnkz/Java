@@ -1,0 +1,30 @@
+import java.util.Iterator;
+
+public class Ogrenci implements Iterator<Integer>{
+
+	private String isim;
+	private int[] notlar;
+	
+	public Ogrenci(){
+		
+	}
+	public Ogrenci(String isim, int[] notlar) {
+		this.isim = isim;
+		this.notlar = notlar;
+	}
+	
+	public String getIsim() {
+		return isim;
+	}
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	
+	public int[] getNotlar() {
+		return notlar;
+	}
+	public void setNotlar(int[] notlar) {
+		this.notlar = notlar;
+	}
+	
+}

@@ -1,0 +1,17 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Araba araba = new Araba();
+		araba.setPlaka("34ABC0123");
+		araba.setmarka("Z Marka");
+		araba.setModel("I Model");
+		araba.setYil(2022);
+		
+		Motor motor = new Motor();
+		motor.setHaci(2000);
+		araba.setMotor(motor);
+		
+		System.out.println(araba);
+	}
+}

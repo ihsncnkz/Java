@@ -1,0 +1,39 @@
+
+public class Ogrenci {
+	//Degiskenler private olarak işaretlendikleri zaman sınıfın dışında erişilemezler!
+	/*private int numara = 10;
+	private String ad;*/
+	//private String soyad;
+	
+	// Eger basına her hangi bir erisim belirleyici koymazsanız defoult olarak olusturulur!
+	// Defoult erisim belirleyi degerlere aynı paket içerisindeki olanlar erisebilir!
+	// String soyad;
+	
+	/*Javada paketlerin asıl amacı aynı isimli birden fazla sınıfı birbiriyle karıstırmamak*/
+	
+	/*private void numarayiYazdır() {
+		System.out.println(numara);
+	}*/
+	
+	public int numara;
+	public String ad;
+	public String soyad;
+	private int yas;
+	
+	public void setYas(int y) {
+		if(y > 0) {
+			yas = y;
+		}
+		else {
+			System.out.println("Yas degeri 0'den kucuk olamaz");
+		}
+	}
+	
+	public void bilgileriYazdir() {
+		System.out.println("Numara: " + numara);
+		System.out.println("Ad: "+ ad);
+		System.out.println("Soyad: " + soyad);
+		System.out.println("Yaş: "+ yas);
+	}
+	
+}

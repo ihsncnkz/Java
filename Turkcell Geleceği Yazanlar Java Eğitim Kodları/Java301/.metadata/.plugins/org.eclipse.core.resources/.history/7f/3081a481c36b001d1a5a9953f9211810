@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.Random;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		/*Bilet bilet = new Bilet(1, new Date(), 25.f);
+		Koltuk koltuk = new Koltuk(1, bilet);
+		
+		System.out.println(koltuk);*/
+		
+		Random random = new Random();
+		ArrayList<Bilet> biletListesi = new ArrayList<>();
+		for (int i = 0; i < 100; i++) {
+			Bilet bilet = new Bilet(random.nextInt(1000), new Date(), random.nextFloat() * 100);
+			biletListesi.add(bilet);
+		}
+		
+		Iterator<Bilet> iterator = biletListesi.iterator();
+		while(iterator.hasNext()) {
+			Bilet next = iterator.next();
+			System.out.println(next);
+		}
+	}
+}

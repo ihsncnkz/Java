@@ -1,0 +1,19 @@
+
+public class Ogrenci {
+
+	private int numara;
+	private String ad;
+	private String soyad;
+	private String sinif;
+	
+	public Ogrenci() {
+		
+	}
+	public Ogrenci(int numara, String ad, String soyad, String sinif) {
+		this.numara = numara;
+		this.ad = ad;
+		this.soyad = soyad;
+		this.sinif = sinif;
+	}
+	
+}

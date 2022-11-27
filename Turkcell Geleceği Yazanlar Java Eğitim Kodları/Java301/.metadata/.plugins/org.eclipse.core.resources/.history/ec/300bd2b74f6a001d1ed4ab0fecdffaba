@@ -1,0 +1,25 @@
+
+public class Calisan {
+
+	private String tcNo;
+	private String isim;
+	
+	public String getTcNo() {
+		return tcNo;
+	}
+	public void setTcNo(String tcNo) {
+		this.tcNo = tcNo;
+	}
+	
+	public String getIsim() {
+		return isim;
+	}
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	
+	@Override
+	public String toString() {
+		return "TcNo: " + tcNo + " ,Isim: " + isim;
+	}
+}

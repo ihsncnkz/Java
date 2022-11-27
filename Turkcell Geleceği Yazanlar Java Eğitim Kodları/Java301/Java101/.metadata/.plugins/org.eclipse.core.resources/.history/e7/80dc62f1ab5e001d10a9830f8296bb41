@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Driver {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Haftanın Günleri: ");
+		int day  = scanner.nextInt();
+		
+		switch (day) {
+		
+		}
+	}
+}

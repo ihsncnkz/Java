@@ -1,0 +1,9 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Arac arac = new Arac("34TT1234","X Marka");
+		System.out.println(arac.getmarka());
+		System.out.println(arac.getPlaka());
+	}
+}

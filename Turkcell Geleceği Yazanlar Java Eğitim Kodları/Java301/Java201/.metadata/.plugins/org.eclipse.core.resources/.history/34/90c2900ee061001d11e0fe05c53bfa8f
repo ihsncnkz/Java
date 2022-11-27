@@ -1,0 +1,13 @@
+
+public class Kare extends Sekil {
+	
+	private int kenarUzunlugu;
+	
+	public int getKenarUz() {
+		return kenarUzunlugu;
+	}
+	public void setKenarUz(int _uz) {
+		kenarUzunlugu = _uz;
+	}
+
+}

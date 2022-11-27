@@ -1,0 +1,20 @@
+
+public class Motor {
+
+	private int hacim;
+	
+	public Motor() {
+		
+	}
+	
+	public Motor(int hacim) {
+		this.hacim = hacim;
+	}
+	
+	public int getHacim() {
+		return hacim;
+	}
+	public void setHaci(int hacim) {
+		this.hacim = hacim;
+	}
+}

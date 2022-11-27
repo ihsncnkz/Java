@@ -1,0 +1,14 @@
+import java.util.Vector;
+
+public class VectorDriver {
+
+	public static void main(String[] args) {
+		Vector<Kitap> vector = new Vector<>();
+		vector.add(new Kitap("X" , 2022, new Yazar("Ali" , "Can")));
+		vector.add(new Kitap("Y" , 2019, new Yazar("Gamze" , "Dal")));
+		vector.add(new Kitap("Z" , 2021, new Yazar("Kamil" , "Ata")));
+		
+		System.out.println(vector.size());
+		
+	}
+}

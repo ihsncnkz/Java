@@ -1,0 +1,8 @@
+
+public class HesapMakinesi {
+	private float topla(float x, float y) {
+		float toplam = x + y;
+		return (float) toplam;
+	}
+	
+}

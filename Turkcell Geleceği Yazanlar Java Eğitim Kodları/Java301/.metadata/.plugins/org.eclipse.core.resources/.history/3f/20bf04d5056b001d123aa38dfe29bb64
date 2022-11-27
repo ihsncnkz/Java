@@ -1,0 +1,37 @@
+
+public class Film {
+
+	private String ad;
+	private String yonetmen;
+	private FilmTipi tip;
+	private String yayinlanmaYili;
+	
+	public String getAd() {
+		return ad;
+	}
+	public void setAd(String ad) {
+		this.ad = ad;
+	}
+	
+	public String getYonetmen() {
+		return yonetmen;
+	}
+	public void setYonetmen(String yonetmen) {
+		this.yonetmen = yonetmen;
+	}
+	
+	public FilmTipi getTip() {
+		return tip;
+	}
+	public void setTip(FilmTipi tip) {
+		this.tip = tip;
+	}
+	
+	public int getYayinlanmaYili() {
+		return yayinlanmaYili;
+	}
+	public void setYayinlanmaYili(int yayinlanmaYili) {
+		this.yayinlanmaYili = yayinlanmaYili;
+	}
+	
+}

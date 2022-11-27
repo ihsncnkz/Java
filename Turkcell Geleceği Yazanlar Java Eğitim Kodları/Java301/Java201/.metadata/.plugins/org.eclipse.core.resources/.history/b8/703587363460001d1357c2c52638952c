@@ -1,0 +1,18 @@
+
+public class Driver {
+	
+	public static void merhaba() {
+		System.out.println("Merhaba");
+	}
+	
+	// Java uygulamalarında mutlaka bir main metotu olmak zorundadır!
+	public static void main(String[] args) {
+		// Eger driver metotodundan bir istek alamaz isek metot çalışmaz!
+		// Çalışması için Static olması gerekir!
+		/*Driver driver = new Driver();
+		driver.merhaba();*/
+		
+		merhaba();
+		
+	}
+}

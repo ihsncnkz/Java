@@ -1,0 +1,28 @@
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.util.Scanner;
+
+public class Driver {
+
+	public static void main(String[] args) {
+	
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Tarih: ");
+		LocalDate tarih = LocalDate.parse(scanner.nextLine());
+		
+		System.out.print("Saat: ");
+		LocalTime saat = LocalTime.parse(scanner.nextLine());
+		
+		LocalDateTime tarihSaat = LocalDateTime.of(tarih, saat);
+		System.out.println("Tarih Saat: " + tarihSaat);
+		
+		System.out.println("İşlem (0 Ekle) (1 Çıkar) : ");
+		int islem = scanner.nextInt();
+		if(islem == 0 || islem == 1) {
+			
+		} else {
+			System.out.println("Lütfen 0 veya 1 giriniz!");
+		}
+	}
+}

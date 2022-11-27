@@ -1,0 +1,10 @@
+import java.util.Optional;
+
+public class Driver {
+
+	public static void main(String[] args) {
+	
+		Optional<String> bosNesne = Optional.empty();
+		System.out.println(bosNesne.isPresent());
+	}
+}

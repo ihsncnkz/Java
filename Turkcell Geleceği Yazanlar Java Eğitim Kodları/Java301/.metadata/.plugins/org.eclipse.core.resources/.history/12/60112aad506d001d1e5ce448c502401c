@@ -1,0 +1,8 @@
+import java.io.Serializable;
+
+public class Kisi implements Serializable {
+
+	public enum Cinsiyet {
+		ERKEK, KADIN
+	}
+}

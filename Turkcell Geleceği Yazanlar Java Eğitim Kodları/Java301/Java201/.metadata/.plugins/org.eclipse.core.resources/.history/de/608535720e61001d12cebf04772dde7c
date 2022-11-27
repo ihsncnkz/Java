@@ -1,0 +1,10 @@
+
+public class Bisiklet {
+	int vites;
+	int hiz;
+	
+	void bilgileriYazdir() {
+		System.out.println(vites);
+		System.out.println(hiz);
+	}
+}

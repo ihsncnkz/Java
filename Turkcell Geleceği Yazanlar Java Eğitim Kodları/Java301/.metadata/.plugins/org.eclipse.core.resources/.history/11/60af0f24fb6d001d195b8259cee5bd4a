@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.function.Predicate;
+import java.util.stream.Stream;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		ArrayList<String> arrayList = new ArrayList<>();
+		
+		Stream<String> stream = arrayList.stream();
+		Stream<String> stream2 = stream.filter(new Predicate<String>() {
+
+			@Override
+			public boolean test(String t) {
+				return true;
+			}
+			
+		});
+	}
+}

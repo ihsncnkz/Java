@@ -1,0 +1,14 @@
+import java.util.Date;
+import java.util.HashMap;
+
+public class KitapDriver {
+
+	public static void main(String[] args) {
+		HashMap<Integer, Kitap> hashMap = new HashMap<>();
+		hashMap.put(1, new Kitap("X",new Date(), "Ali Çam"));
+		hashMap.put(1, new Kitap("Y",new Date(), "Tarık Ak"));
+		hashMap.put(1, new Kitap("Z",new Date(), "Zekiye Turgut"));
+		
+		System.out.println(hashMap.size());
+	}
+}

@@ -1,0 +1,10 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Calisan calisan1 = new Calisan();
+		Calisan calisan2 = new Calisan("Alican");
+		Calisan calisan3 = new Calisan("Alican", "IT");
+		Calisan calisan4 = new Calisan("Alican", "IT", new Date());
+	}
+}

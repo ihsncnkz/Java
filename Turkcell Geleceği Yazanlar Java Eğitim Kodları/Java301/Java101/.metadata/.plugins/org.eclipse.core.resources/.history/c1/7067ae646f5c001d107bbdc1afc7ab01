@@ -1,0 +1,14 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		byte b; // Bellekte 1 byte yer kaplar.
+		b = 10;
+		System.out.println(b);
+		
+		short s = 20; // Bellekte 2 byte yer kaplar.
+		System.out.println(s);
+		
+		int i = 30;
+		System.out.println(s);
+	}
+}

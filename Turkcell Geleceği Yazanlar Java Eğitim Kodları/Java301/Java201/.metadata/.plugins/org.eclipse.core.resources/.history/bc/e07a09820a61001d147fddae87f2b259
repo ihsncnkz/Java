@@ -1,0 +1,11 @@
+
+public class Driver {
+	public static void main() {
+		Daire daire;
+		daire = new Daire();
+		daire.x = 10;
+		daire.y = 20;
+		daire.r = 3;
+		
+	}
+}

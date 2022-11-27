@@ -1,0 +1,9 @@
+import java.util.Date;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Bilet bilet = new Bilet(1, new Date(), 25.f);
+		System.out.println(bilet);
+	}
+}

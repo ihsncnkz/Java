@@ -1,0 +1,10 @@
+import java.util.Date;
+
+public class Calisan {
+	
+	private String isim;
+	private double maas;
+	private Date iseBaslamaTarihi;
+	
+	
+}

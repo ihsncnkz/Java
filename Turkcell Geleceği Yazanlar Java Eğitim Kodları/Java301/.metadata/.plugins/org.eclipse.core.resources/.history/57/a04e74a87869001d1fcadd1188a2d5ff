@@ -1,0 +1,27 @@
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class Oku {
+
+	public static void main(String[] args) {
+		File file = new File("araba.bin");
+		FileInputStream fileInputStream = null;
+		ObjectInputStream objectInputStream = null;
+		try {
+			
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		} finally {
+			try {
+				if (objectInputStream != null) {
+					objectInputStream.close();
+				}
+				if (fileInputStream != null) {
+					fileInputStream.close();
+				}
+			} catch (Exception e){
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+}

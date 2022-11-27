@@ -1,0 +1,9 @@
+
+public class Driver {
+	public static void main(String[] args) {
+		DbConnection connection = new DbConnection();
+		connection.openConnection();
+		connection.executeQuery("SLECKT * FROM students");
+		connection.closeConnection();
+	}
+}

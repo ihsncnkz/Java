@@ -1,0 +1,12 @@
+
+public class Dikdortgen extends Sekil{
+	
+	private int genislik;
+	private int yukseklik;
+	
+	punlic Dikdortgen(int g, int y) {
+		genislik = g;
+		yukseklik = y;
+	}
+
+}

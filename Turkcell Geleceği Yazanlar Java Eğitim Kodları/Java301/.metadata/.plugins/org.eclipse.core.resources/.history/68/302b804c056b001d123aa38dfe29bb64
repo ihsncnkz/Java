@@ -1,0 +1,11 @@
+
+public class Film {
+
+	private String ad;
+	private String yonetmen;
+	private String tip;
+	private String yayinlanmaYili;
+	
+	
+	
+}

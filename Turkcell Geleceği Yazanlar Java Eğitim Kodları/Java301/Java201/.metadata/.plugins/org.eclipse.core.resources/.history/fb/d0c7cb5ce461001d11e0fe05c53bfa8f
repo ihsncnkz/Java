@@ -1,0 +1,24 @@
+
+public class Memur extends Calisan {
+	
+	private String birim;
+	
+	public Memur(String i, String g, int m) {
+		super(i,g,m);
+	}
+	
+	public String getBirim() {
+		return birim;
+	}
+	public void setBirim(String _b) {
+		birim = _b;
+	}
+	
+	public void ozet() {
+		System.out.println("İsim: "+(getIsim()));
+		System.out.println("Gorev: "+(getGorev()));
+		System.out.println("Maas: "+(getMaas()));
+		System.out.println("Birim: "+(birim));
+	}
+
+}

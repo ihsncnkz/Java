@@ -1,0 +1,15 @@
+import java.io.Serializable;
+
+public class Koltuk implements Serializable{
+
+	private int numara;
+	private Bilet bilet;
+	
+	public Koltuk() {
+		
+	}
+	public Koltuk(int numara, Bilet bilet) {
+		this.numara = numara;
+		this.bilet = bilet;
+	}
+}

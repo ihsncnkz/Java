@@ -1,0 +1,17 @@
+import java.util.Optional;
+
+public class Driver {
+
+	public static void main(String[] args) {
+	
+		Optional<String> bosNesne = Optional.empty();
+		System.out.println(bosNesne.isPresent());
+		System.out.println("-------------------");
+		
+		String deger = "Merhaba";
+		Optional<String> optional = Optional.of(deger);
+		System.out.println(optional.isPresent());
+		System.out.println("-------------------");
+		
+	}
+}

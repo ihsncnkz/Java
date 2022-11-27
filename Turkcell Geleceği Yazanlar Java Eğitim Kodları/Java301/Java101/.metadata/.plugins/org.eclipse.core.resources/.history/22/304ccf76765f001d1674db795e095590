@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class daire {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Lütfen yarı çapı giriniz: ");
+		int yaricap = scanner.nextInt();
+		
+		float alan = Math.PI * Math.pow(yaricap, 2)
+	}
+}

@@ -1,0 +1,18 @@
+
+public class Driver {
+	
+	private static int x = 20;
+	
+	public static void main(String[] args) {
+		Driver driver = new Driver();
+		driver.normalMetot();
+	}
+	
+	public void normalMetot() {
+		System.out.println(x);
+	}
+	
+	public static void staticMetot() {
+		
+	}	
+}

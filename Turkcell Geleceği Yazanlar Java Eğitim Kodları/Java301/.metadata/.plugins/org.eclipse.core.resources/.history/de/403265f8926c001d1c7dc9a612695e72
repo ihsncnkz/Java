@@ -1,0 +1,15 @@
+
+public class Ogrenci {
+
+	private String isim;
+	private int[] notlar;
+	
+	public Ogrenci(){
+		
+	}
+	public Ogrenci(String isim, int[] notlar) {
+		this.isim = isim;
+		this.notlar = notlar;
+	}
+	
+}

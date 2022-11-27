@@ -1,0 +1,24 @@
+import java.util.Iterator;
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		NavigableSet<Integer> navigableSet = new TreeSet<>();
+		navigableSet.add(2);
+		navigableSet.add(78);
+		navigableSet.add(3);
+		navigableSet.add(9);
+		navigableSet.add(9); // aynı değer olduğu içi bu değeri döndürmedi!
+		
+		//System.out.println(navigableSet.size());
+		
+		Iterator<Integer> iterator = navigableSet.iterator();
+		while(iterator.hasNext()) {
+			Integer next = iterator.next();
+			System.out.println(next);
+		}
+		
+	}
+}

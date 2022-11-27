@@ -1,0 +1,12 @@
+
+public class Ogrenci {
+	String ad;
+	String soyad;
+	int yas;
+	
+	Ogrenci(){
+		ad = "Bilinmyen";
+		soyad = "Bilinmeyen";
+		yas = -1;
+	}
+}

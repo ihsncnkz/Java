@@ -1,0 +1,10 @@
+
+public class HesapMakinesi {
+	
+	public float topla(float x, float y) {
+		return x+y;
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+
+public class Driver {
+	
+	int x;
+	
+	public Driver() {
+		System.out.println("ctor");
+		x = 20;
+	} 
+	
+	public static void main(String[] args) {
+		Driver driver = new Driver();
+		System.out.println(driver.x);
+		
+	}
+}

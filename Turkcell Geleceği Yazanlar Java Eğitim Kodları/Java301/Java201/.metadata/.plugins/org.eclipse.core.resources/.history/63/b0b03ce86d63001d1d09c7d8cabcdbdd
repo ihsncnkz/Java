@@ -1,0 +1,7 @@
+
+public class YolcuTasimaAraci extends Arac{
+
+	public YolcuTasimaAraci(String plaka, String marka) {
+		super(plaka, marka);
+	}
+}
